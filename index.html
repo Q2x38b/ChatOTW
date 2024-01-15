@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT OTW</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #chat-container {
+            max-width: 600px;
+            margin: auto;
+            overflow-y: auto;
+            max-height: 400px;
+            border: 1px solid #555;
+            padding: 10px;
+            background-color: #222;
+        }
+
+        #user-input {
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid #555;
+            background-color: #333;
+            color: #fff;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChatGPT OTW</h1>
+    </header>
+
+    <main>
+        <div id="chat-container">
+            <!-- Chat messages will be displayed here -->
+        </div>
+
+        <div id="user-input">
+            <input type="text" id="user-message" placeholder="Type your message...">
+            <input type="submit" value="Send">
+        </div>
+    </main>
+</body>
+</html>
